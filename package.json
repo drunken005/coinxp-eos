@@ -4,7 +4,7 @@
   "description": "Coinxp cross chain gateway EOS tools",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha test/**/*.test.js"
+    "test": "mocha lib/**/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,8 @@
   "homepage": "https://github.com/drunken005/coinxp-eos#readme",
   "dependencies": {
     "binaryen": "^51.0.0",
-    "eosjs": "^16.0.9"
+    "eosjs": "^16.0.9",
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "assert": "^1.4.1",
