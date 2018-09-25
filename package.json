@@ -2,22 +2,22 @@
   "name": "coinxp-eos",
   "version": "1.0.0",
   "description": "Coinxp cross chain gateway EOS tools",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha test/**/*.test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/drunken005/coinxp-eos.git"
   },
   "keywords": [
-    "cxp",
-    "coinxp",
-    "eth",
-    "eos",
-    "btc",
-    "crosschain",
-    "blockchain"
+    "CXP",
+    "CoinXP",
+    "ETH",
+    "EOS",
+    "BTC",
+    "Crosschain",
+    "Blockchain"
   ],
   "author": "drunken",
   "license": "ISC",
@@ -26,6 +26,13 @@
   },
   "homepage": "https://github.com/drunken005/coinxp-eos#readme",
   "dependencies": {
+    "binaryen": "^51.0.0",
     "eosjs": "^16.0.9"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.0.3",
+    "should": "^13.2.3"
   }
 }
