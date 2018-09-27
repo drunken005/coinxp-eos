@@ -12,7 +12,7 @@ npm test
 ```
 #### API
 
-##### config
+##### Configuration
 ```bash
  const CoinXpEos = require('coinxp-eos');
  const config = {
@@ -25,12 +25,12 @@ npm test
  coinxpEos.register('deposit.tx', ["confirm"]);
  coinxpEos.register('address', ["add", "approve", "reject"]);
 ```
-##### getInfo
+##### GetInfo
 ```bash
  //support promise
  let result = await coinxpEos.info(); 
 ```
-##### getTable
+##### GetTable
 ```bash
  //support promise
  await coinxpEos.getTable('BTC', 'withdraw', 'withdrawals', 0, -1, 1000)
@@ -39,7 +39,7 @@ npm test
  }).catch((error) => {
  });
 ```
-##### use register method
+##### Use register method
 ```bash
  //Call register contract method,The parameters and eos contract parameters are the same
  //The method name is the combination of the contract name plus action, hump
