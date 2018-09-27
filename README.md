@@ -1,5 +1,5 @@
 # coinxp-eos
-Coinxp cross chain gateway EOS tools,eos JavaScript based on the eosjs package calls smart contract tools
+EOS configuration is simplified and specified smart contract registration and invocation is supported for javascript
 
 ### usage
 #### Install
@@ -39,7 +39,7 @@ npm test
  }).catch((error) => {
  });
 ```
-##### register metgod
+##### use register method
 ```bash
  //Call register contract method,The parameters and eos contract parameters are the same
  //The method name is the combination of the contract name plus action, hump

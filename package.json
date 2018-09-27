@@ -1,7 +1,7 @@
 {
   "name": "coinxp-eos",
-  "version": "1.0.2",
-  "description": "Coinxp cross chain gateway EOS tools",
+  "version": "1.0.3",
+  "description": "EOS configuration is simplified and specified smart contract registration and invocation is supported for javascript",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha lib/**/*.test.js"
